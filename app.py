@@ -10,7 +10,7 @@ Bootstrap(app)
 
 @app.route("/")
 def index():
-    products = ['Cabelo', 'Varba', 'Cerveja']
+    products = ['Cabelo', 'Barba', 'Cerveja']
     return render_template('index.html', products=products)
 
 

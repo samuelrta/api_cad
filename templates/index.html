@@ -10,12 +10,10 @@
     </a>
   </div>
 </div>
-{% endblock %}
-
-{% block content %}
+{% endblock %} {% block content %}
 <div class="container">
-  <h1>{{config.get('TITLE')}}</h1> <!-- titulo do conteúdo da página -->
-
+  <h1>{{config.get('TITLE')}}</h1>
+  <!-- titulo do conteúdo da página -->
 
   <div class="jumbotron">
     <ul class="list-group">
@@ -24,14 +22,5 @@
       {% endfor %}
     </ul>
   </div>
-</div>   
-{% endblock %}
-<!--
-
- <ul>
-    {% for product in products %}
-    <li>{{product}}</li>
-    {% endfor %}
-  </ul>
 </div>
-</body>
+{% endblock %}
