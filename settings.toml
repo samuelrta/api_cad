@@ -1,0 +1,5 @@
+[default]
+SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
+TITLE = "pontocad"
+SECRET_KEY = "opkpor@{`}l)@jijdsigy!"
+
